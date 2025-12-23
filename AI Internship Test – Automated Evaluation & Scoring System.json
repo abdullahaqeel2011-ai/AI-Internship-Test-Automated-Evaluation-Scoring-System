@@ -1,0 +1,868 @@
+{
+  "name": "AI Internship Test – Automated Evaluation & Scoring System",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "AI Internship Test",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Email",
+              "fieldType": "email",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "1.A workflow sends an email when a form is submitted. Sometimes, duplicate emails are sent. What is the best fix?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Add a delay"
+                  },
+                  {
+                    "option": "Add a condition to check if the record already exists"
+                  },
+                  {
+                    "option": "Increase timeout"
+                  },
+                  {
+                    "option": "Reconnect trigger"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "2.What is the main purpose of automation workflows?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Reduce manual tasks"
+                  },
+                  {
+                    "option": "Collect data manually"
+                  },
+                  {
+                    "option": "Increase manual input"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "3.You have a list of 500 customers and need to send each a personalized email. The best design approach is:",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "One big email"
+                  },
+                  {
+                    "option": "Single API call"
+                  },
+                  {
+                    "option": "Manual sending"
+                  },
+                  {
+                    "option": " Loop through each customer"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "4.In a workflow, a 'Wait' or 'Delay' step is used to",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Combine data"
+                  },
+                  {
+                    "option": "Pause between actions"
+                  },
+                  {
+                    "option": "Filter items"
+                  },
+                  {
+                    "option": "Duplicate items"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "5. You want to process data in batches to prevent overloading the system. What’s the best approach?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Split data into smaller chunks"
+                  },
+                  {
+                    "option": "Use a single large request"
+                  },
+                  {
+                    "option": "Merge all inputs "
+                  },
+                  {
+                    "option": "Remove conditions"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "6.A system processes 10,000 records daily but performance drops over time. What can help?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Pagination and batching"
+                  },
+                  {
+                    "option": " Manual clean-up"
+                  },
+                  {
+                    "option": "Increasing retries "
+                  },
+                  {
+                    "option": "Adding delays"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "7. What is 'data mapping'?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Assigning input data to output fields "
+                  },
+                  {
+                    "option": "Drawing workflow diagrams"
+                  },
+                  {
+                    "option": "Merging data sources "
+                  },
+                  {
+                    "option": "Hiding credentials"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": " 8.When designing a webhook-based workflow, what must be ensured? ",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Correct endpoint and data format "
+                  },
+                  {
+                    "option": " Frequent manual testing"
+                  },
+                  {
+                    "option": "Random delay"
+                  },
+                  {
+                    "option": "Short trigger interval"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": " 9.You’re automating lead assignment. Each lead should go to a different salesperson in rotation. Which logic suits best? ",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Round-robin assignment"
+                  },
+                  {
+                    "option": "Random pick"
+                  },
+                  {
+                    "option": " Parallel branch "
+                  },
+                  {
+                    "option": "Static routing"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "10.A workflow imports records from an external API. Sometimes, the API sends partial data. What’s the best fix?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": " Validate data before processing"
+                  },
+                  {
+                    "option": "Ignore errors"
+                  },
+                  {
+                    "option": "Run the workflow twice"
+                  },
+                  {
+                    "option": "Increase execution speed"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "11.What’s the best way to avoid infinite loops in a workflow?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Prevent workflow from triggering itself"
+                  },
+                  {
+                    "option": " Add random delays "
+                  },
+                  {
+                    "option": "Disable webhooks"
+                  },
+                  {
+                    "option": "Add multiple triggers"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "12. A user updates their contact info and you need to sync it to CRM, but only if the phone number changed. What’s needed?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": " Conditional comparison "
+                  },
+                  {
+                    "option": "Always sync all fields"
+                  },
+                  {
+                    "option": "Loop through data"
+                  },
+                  {
+                    "option": "Parallel processing"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "13.What is the purpose of 'logging' in workflows?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": " Track events and errors for debugging "
+                  },
+                  {
+                    "option": "Store passwords"
+                  },
+                  {
+                    "option": "Stop triggers"
+                  },
+                  {
+                    "option": "Save templates"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "14.. A workflow is producing inconsistent results across runs. Which is the most likely issue?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Unstable trigger data"
+                  },
+                  {
+                    "option": "Consistent API"
+                  },
+                  {
+                    "option": "Too many loops "
+                  },
+                  {
+                    "option": "Static conditions"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "15. Before deploying an automation, you should always:",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Test with sample data"
+                  },
+                  {
+                    "option": "Run on live data immediately"
+                  },
+                  {
+                    "option": "Skip error handling "
+                  },
+                  {
+                    "option": "Disable filters"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "16. You want to combine data from two APIs into one output. Which concept applies? ",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Data merging"
+                  },
+                  {
+                    "option": "Data filtering"
+                  },
+                  {
+                    "option": "Scheduling"
+                  },
+                  {
+                    "option": "Loops"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "17.Which part of a workflow controls decision-making? ",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": " Conditional logic"
+                  },
+                  {
+                    "option": "Triggers "
+                  },
+                  {
+                    "option": "Loops"
+                  },
+                  {
+                    "option": " Errors"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "18. Which improves workflow performance? ",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Batch processing "
+                  },
+                  {
+                    "option": " Extra logging"
+                  },
+                  {
+                    "option": "Longer delays"
+                  },
+                  {
+                    "option": "Repeated triggers"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "19.A workflow must notify admin if data sync fails. What’s needed? ",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Error notification step"
+                  },
+                  {
+                    "option": " Parallel branch"
+                  },
+                  {
+                    "option": "Filter node"
+                  },
+                  {
+                    "option": "Loop condition"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "20. What is the role of testing in automation?",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Ensures reliability before deployment"
+                  },
+                  {
+                    "option": " Slows down workflow"
+                  },
+                  {
+                    "option": "Creates loops"
+                  },
+                  {
+                    "option": "Replaces triggers"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        0,
+        0
+      ],
+      "id": "877789bc-99c9-4401-9a28-fbca1d0e9935",
+      "name": "On form submission",
+      "webhookId": "bf92de64-9578-49bc-9e29-aa7415634bcc"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1WA32jrYrvB3kORNc3zFSVFz57zVNfuwg1ttKsdxnbHo",
+          "mode": "list",
+          "cachedResultName": "Automation Test",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1WA32jrYrvB3kORNc3zFSVFz57zVNfuwg1ttKsdxnbHo/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1WA32jrYrvB3kORNc3zFSVFz57zVNfuwg1ttKsdxnbHo/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Name": "={{ $json.Name }}",
+            "Email": "={{ $json.Email }}",
+            "Q1": "={{ $json['1.A workflow sends an email when a form is submitted. Sometimes, duplicate emails are sent. What is the best fix?'] }}",
+            "Q2": "={{ $json['2.What is the main purpose of automation workflows?'] }}",
+            "Q3": "={{ $json['3.You have a list of 500 customers and need to send each a personalized email. The best design approach is:'] }}",
+            "Q4": "={{ $json['4.In a workflow, a \\'Wait\\' or \\'Delay\\' step is used to'] }}",
+            "Q5": "={{ $json['5. You want to process data in batches to prevent overloading the system. What’s the best approach?'] }}",
+            "Q6": "={{ $json['6.A system processes 10,000 records daily but performance drops over time. What can help?'] }}",
+            "Q7": "={{ $json['7. What is \\'data mapping\\'?'] }}",
+            "Q8": "={{ $json[' 8.When designing a webhook-based workflow, what must be ensured? '] }}",
+            "Q9": "={{ $json[' 9.You’re automating lead assignment. Each lead should go to a different salesperson in rotation. Which logic suits best? '] }}",
+            "Q10": "={{ $json['10.A workflow imports records from an external API. Sometimes, the API sends partial data. What’s the best fix?'] }}",
+            "Q11": "={{ $json['11.What’s the best way to avoid infinite loops in a workflow?'] }}",
+            "Q12": "={{ $json['12. A user updates their contact info and you need to sync it to CRM, but only if the phone number changed. What’s needed?'] }}",
+            "Q13": "={{ $json['13.What is the purpose of \\'logging\\' in workflows?'] }}",
+            "Q14": "={{ $json['14.. A workflow is producing inconsistent results across runs. Which is the most likely issue?'] }}",
+            "Q15": "={{ $json['15. Before deploying an automation, you should always:'] }}",
+            "Q16": "={{ $json['16. You want to combine data from two APIs into one output. Which concept applies? '] }}",
+            "Q17": "={{ $json['17.Which part of a workflow controls decision-making? '] }}",
+            "Q18": "={{ $json['18. Which improves workflow performance? '] }}",
+            "Q19": "={{ $json['19.A workflow must notify admin if data sync fails. What’s needed? '] }}",
+            "Q20": "={{ $json['20. What is the role of testing in automation?'] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Name",
+              "displayName": "Name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q1",
+              "displayName": "Q1",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q2",
+              "displayName": "Q2",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q3",
+              "displayName": "Q3",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q4",
+              "displayName": "Q4",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q5",
+              "displayName": "Q5",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q6",
+              "displayName": "Q6",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q7",
+              "displayName": "Q7",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q8",
+              "displayName": "Q8",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q9",
+              "displayName": "Q9",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q10",
+              "displayName": "Q10",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q11",
+              "displayName": "Q11",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q12",
+              "displayName": "Q12",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q13",
+              "displayName": "Q13",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q14",
+              "displayName": "Q14",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q15",
+              "displayName": "Q15",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q16",
+              "displayName": "Q16",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q17",
+              "displayName": "Q17",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q18",
+              "displayName": "Q18",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q19",
+              "displayName": "Q19",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Q20",
+              "displayName": "Q20",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        208,
+        0
+      ],
+      "id": "467734bb-9d69-4435-ac36-9700f488fced",
+      "name": "Append row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "lAy1S8ph6L1xWyZe",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// ✅ FINAL CORRECT ANSWERS\nconst correctAnswers = {\n  Q1: \"Add a condition to check if the record already exists\",\n  Q2: \"Reduce manual tasks\",\n  Q3: \"Loop through each customer\",\n  Q4: \"Pause between actions\",\n  Q5: \"Split data into smaller chunks\",\n  Q6: \"Pagination and batching\",\n  Q7: \"Assigning input data to output fields\",\n  Q8: \"Correct endpoint and data format\",\n  Q9: \"Round-robin assignment\",\n  Q10: \"Validate data before processing\",\n  Q11: \"Prevent workflow from triggering itself\",\n  Q12: \"Conditional comparison\",\n  Q13: \"Track events and errors for debugging\",\n  Q14: \"Unstable trigger data\",\n  Q15: \"Test with sample data\",\n  Q16: \"Data merging\",\n  Q17: \"Conditional logic\",\n  Q18: \"Batch processing\",\n  Q19: \"Error notification step\",\n  Q20: \"Ensures reliability before deployment\"\n};\n\nconst items = $input.all();\n\nconst normalize = (text) =>\n  String(text)\n    .toLowerCase()\n    .replace(/\\s+/g, \" \")\n    .replace(/[^\\w\\s]/g, \"\")\n    .trim();\n\nreturn items.map(item => {\n  const responses = item.json;\n  let score = 0;\n\n  for (const key in correctAnswers) {\n    const correct = normalize(correctAnswers[key]);\n    const answer = responses[key];\n\n    if (!answer) continue;\n\n    // ✅ HANDLE CHECKBOX (ARRAY)\n    if (Array.isArray(answer)) {\n      const matched = answer.some(opt =>\n        normalize(opt).includes(correct)\n      );\n      if (matched) score++;\n    }\n    // ✅ HANDLE SINGLE VALUE\n    else {\n      if (normalize(answer).includes(correct)) {\n        score++;\n      }\n    }\n  }\n\n  responses.score = score;\n  responses.total = 20;\n  return { json: responses };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        416,
+        0
+      ],
+      "id": "c6c9cf4a-af92-46e8-ace2-d848fa9830f1",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1WA32jrYrvB3kORNc3zFSVFz57zVNfuwg1ttKsdxnbHo",
+          "mode": "list",
+          "cachedResultName": "Automation Test",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1WA32jrYrvB3kORNc3zFSVFz57zVNfuwg1ttKsdxnbHo/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1684911168,
+          "mode": "list",
+          "cachedResultName": "Scores",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1WA32jrYrvB3kORNc3zFSVFz57zVNfuwg1ttKsdxnbHo/edit#gid=1684911168"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Email": "={{ $json.Email }}",
+            "Name": "={{ $json.Name }}",
+            "Score": "={{ $json.score }}"
+          },
+          "matchingColumns": [
+            "Email"
+          ],
+          "schema": [
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Name",
+              "displayName": "Name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Score",
+              "displayName": "Score",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        624,
+        0
+      ],
+      "id": "31fcff93-3edb-41e4-9fc5-86565889af63",
+      "name": "Append or update row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "lAy1S8ph6L1xWyZe",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.Email }}",
+        "subject": "Your Internship Test Score",
+        "emailType": "text",
+        "message": "=Hi {{$json[\"Name\"]}},\nThankyou for completing the internship test.\nYour total score is: {{ $json.Score }} / 20.\nBest regards,\n\n\nAnam Arif\nAI/ML Engineer",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        832,
+        0
+      ],
+      "id": "72155498-3c6e-41a5-ba04-865727ad9131",
+      "name": "Send a message",
+      "webhookId": "1a44e453-4c08-4e9f-87f6-2c54a7704a78",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "ShJqzVodxlGUVVwb",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append row in sheet": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append or update row in sheet": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "e6500f28-0342-4940-a1ef-b4fe5ebffa0a",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "4b2b156ba4be8420fbe91e673e0d220fca70523c50fd0d39504cddc5e16046fa"
+  },
+  "id": "HBZofE3TlwKsWdCG",
+  "tags": []
+}
